@@ -1,4 +1,6 @@
 # ParcialProgra4
+Elias Ernesto Orellana Vasquez SMSS211023
+Ariel Adolfo Diaz Sosa SMSS109224
 1. ¿Qué valor agregado tiene el uso de Web Components a su proyecto?
 Permite que el código sea más ordenado y reutilizable. Es como crear una "pieza de Lego" propia; podemos llevar la calculadora a cualquier otra página sin tener que volver a escribir todo el código, asegurando que el diseño no se desconfigure.
 
