@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial Primer Cómputo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+    <img src="img/logo.png" alt="Logo UGB" class="icono">
+</div>
+
+        <h1>Parcial Primer Cómputo Ingeniería en Sistemas y Redes Informáticas</h1>
+    </header>
+
+    <!-- Contenido principal -->
+<main>
+    <form class="calculadora" id="formCalculadora">
+        <h2>Calculadora de Propinas y División de Gastos</h2>
+
+        <label for="monto">Monto total ($):</label>
+        <input type="number" id="monto" required min="1" placeholder="Ej: 50">
+
+        <label for="propina">Propina (%):</label>
+        <select id="propina" required>
+            <option value="">Seleccione...</option>
+            <option value="5">5%</option>
+            <option value="10">10%</option>
+            <option value="15">15%</option>
+            <option value="20">20%</option>
+        </select>
+
+        <label for="personas">Número de personas:</label>
+        <input type="number" id="personas" required min="1" placeholder="Ej: 4">
+
+        <button type="submit">Calcular</button>
+
+        <!-- Aquí aparece el resultado -->
+        <resultado-calculadora></resultado-calculadora>
+    </form>
+</main>
+
+
+
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Integrantes del Equipo</p>
+        <div class="integrantes">
+            <span>Elias Ernesto Orellana Vasquez y SMSS211023</span>
+            <span>Ariel Adolfo Diaz Sosa y SMSS109224</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
